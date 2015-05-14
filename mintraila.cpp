@@ -14,20 +14,20 @@ int wagon = 0;
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "Want to continue on this eventful journey?" <<endl;
-	cout << "a. Yes" <<endl;
-	cout << "b. No" <<endl;
+	cout << "Y" <<endl;
+	cout << "N" <<endl;
 	cin >> choice;
 
-	if (choice == 'a') {
+	if (choice == 'Y') {
 		cout << "Let us begin the adventure" <<endl;
 	}
-	if (choice == 'b') {
+	if (choice == 'N') {
 		cout << "Weak. Too bad, Everything of value was stolen from you."; 
 		cout << "You have no choice but to continue" <<endl;
 	}
 
 	cout << "Luckily, you have enough, $1000, to buy a wagon and supplies\n\n" <<endl;
-	cout << "Here are your options (Both wagons cost $500)";
+	cout << "Here are your options (Both wagons cost $500):";
 	cout << "1. The wagon has enhanced storage space for food, water, and ammunition, but is susceptible to damage" <<endl;
 	cout << "2. This wagon enables one to camp within the wagon and build a fire, but has less storage space" <<endl;
 	
