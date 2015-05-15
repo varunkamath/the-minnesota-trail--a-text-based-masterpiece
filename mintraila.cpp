@@ -11,6 +11,7 @@ using namespace std;
 int main(){
 char choice = ' ';
 int wagon = 0;
+string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "Want to continue on this eventful journey?" <<endl;
@@ -30,6 +31,7 @@ int wagon = 0;
 	cout << "Here are your options (Both wagons cost $500):";
 	cout << "1. The wagon has enhanced storage space for food, water, and ammunition, but is susceptible to damage" <<endl;
 	cout << "2. This wagon enables one to camp within the wagon and build a fire, but has less storage space" <<endl;
+	cin >> wagon;
 	
 	if (wagon == 1) {
 		cout << "Wise choice, but let's hope the wagon holds together.. " <<endl;
@@ -37,6 +39,21 @@ int wagon = 0;
 	if (wagon == 2) {
 		cout << "The comfort wagon it is. But maybe no food for you..." <<endl;
 	}
+	
+	cout << "(After a Week-Text Art this) You come up to a gushing stream. Unfortunately";
+	cout << "you did think to buy a fishing pole" <<endl;
+	cout << "Fish with your bare hands" <<endl;
+	cout << "Eat what you have" <<endl;
+	cin >> dec;
+	
+	if (dec == "Fish with your bare hands") {
+		cout << "You successfully catch 3 fish, but lose a finger in the process" << endl;
+	}
+	
+	if (dec == "Eat what you have") {
+		cout << "You have 5 days of a rationed food supply left" <<endl;
+	
+	
 	
 	return 0;
 } 
