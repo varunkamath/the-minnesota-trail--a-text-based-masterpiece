@@ -14,7 +14,7 @@ int wagon = 0;
 string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
-	cout << "Want to continue on this eventful journey?" <<endl;
+	cout << "\nWant to continue on this eventful journey?" <<endl;
 	cout << "Y" <<endl;
 	cout << "N" <<endl;
 	cin >> choice;
@@ -29,8 +29,8 @@ string dec = " ";
 
 	cout << "Luckily, you have enough, $1000, to buy a wagon and supplies\n\n" <<endl;
 	cout << "Here are your options (Both wagons cost $500):";
-	cout << "1. The wagon has enhanced storage space for food, water, and ammunition, but is susceptible to damage" <<endl;
-	cout << "2. This wagon enables one to camp within the wagon and build a fire, but has less storage space" <<endl;
+	cout << "\n1. The wagon has enhanced storage space for food, water, and ammunition, but is susceptible to damage" <<endl;
+	cout << "\n2. This wagon enables one to camp within the wagon and build a fire, but has less storage space" <<endl;
 	cin >> wagon;
 	
 	if (wagon == 1) {
@@ -41,7 +41,7 @@ string dec = " ";
 	}
 	
 	cout << "(After a Week-Text Art this) You come up to a gushing stream. Unfortunately";
-	cout << "you did think to buy a fishing pole" <<endl;
+	cout << " you did think to buy a fishing pole" <<endl;
 	cout << "Fish with your bare hands" <<endl;
 	cout << "Eat what you have" <<endl;
 	cin >> dec;
@@ -52,6 +52,7 @@ string dec = " ";
 	
 	if (dec == "Eat what you have") {
 		cout << "You have 5 days of a rationed food supply left" <<endl;
+	}
 	
 	
 	
