@@ -11,6 +11,7 @@ using namespace std;
 int main(){
 char choice = ' ';
 int wagon = 0;
+char water = ' ';
 string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
@@ -19,10 +20,12 @@ string dec = " ";
 	cout << "N" <<endl;
 	cin >> choice;
 
-	if (choice == 'Y') {
+	if (choice == 'Y') 
+	{
 		cout << "Let us begin the adventure" <<endl;
 	}
-	if (choice == 'N') {
+	if (choice == 'N') 
+	{
 		cout << "Weak. Too bad, Everything of value was stolen from you."; 
 		cout << "You have no choice but to continue" <<endl;
 	}
@@ -56,26 +59,33 @@ string dec = " ";
 	
 	cout << "Nice. You have covered 100 miles in 2 weeks. A respectable pace" <<endl;
 	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come";
-	cout << " across a freshwater stream" ;
+	cout << " across a freshwater stream" <<endl;
 	cout << "Stop to collect water?" <<endl;
 	cout << "Y" <<endl;
 	cout << "N" <<endl;
 	cin >> choice;
 	
-	if (choice == 'Y' || 'y' ) {
+	if (choice == 'Y' || choice == 'y' ) {
 		cout << "The cool water trickles down your throat quenching your recurring thirst";
 		cout << "  Continue down the path?" <<endl;
 		cout << "Y" <<endl;
-		cout << "N" <<endl;
+		cout << "N" <<endl; 
+		cin >> water;
+			if (water == 'Y' || water == 'y' )
+			 {
+				cout << "OK." << endl;
+				cout << "After travelling for yet another week, you seem to have contracted dysentery";
+				cout << " from the water you collected previously" <<endl;
+			}
+			else if (water != 'Y' || water != 'y' ) 
+			{
+				cout << "You Die; THE END" <<endl;
+				return 0;
+			}
+	}	
+	
 			
-			do { 
-				if (choice == 'Y' || 'y' ) {
-					cout << "OK. Don't Die" <<endl;
-				}
-			   } while (choice != 'N' || 'n' );
-			   
-		
-		
+	
 		
 		
 		
