@@ -9,9 +9,9 @@
 using namespace std;
 
 int main(){
-char choice = ' ';
-int wagon = 0;
-string dec = " ";
+	char choice = ' ';
+	int wagon = 0;
+	string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
@@ -44,14 +44,15 @@ string dec = " ";
 	cout << " you did think to buy a fishing pole" <<endl;
 	cout << "Fish with your bare hands" <<endl;
 	cout << "Eat what you have" <<endl;
+	cout << "(fish/eat)";
 	cin >> dec;
 	
-	if (dec == "Fish with your bare hands") {
+	if (dec == "fish") {
 		cout << "You successfully catch 3 fish, but lose a finger in the process" << endl;
 	}
 	
-	if (dec == "Eat what you have") {
-		cout << "You have 5 days of a rationed food supply left" <<endl;
+	if (dec == "eat") {
+		cout << "You have 5 days of rationed food left" <<endl;
 	}
 	
 	

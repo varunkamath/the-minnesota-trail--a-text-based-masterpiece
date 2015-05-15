@@ -17,9 +17,23 @@ int main()
 	cout << "|    )(  ) __ ( ) _)   / \\/ \\ )( /    //    / ) _) \\___ \\(  O ) )( /    \\    )(   )   //    \\ )( / (_/\\  |" << endl;
 	cout << "|   (__) \\_)(_/(____)  \\_)(_/(__)\\_)__)\\_)__)(____)(____/ \\__/ (__)\\_/\\_/   (__) (__\\_)\\_/\\_/(__)\\____/  |" << endl;
 	cout << "+--------------------------------------------------------------------------------------------------------+" << endl;
-	cout << "\f\f\f\f\f";
 	char choice = ' ';
 	int wagon = 0;
+	cout << ",--.                                    ....       " << endl;
+	cout << "    )                                ..      ..    " << endl;
+	cout << "  _'-. _                           ..   ,--.   ..  " << endl;
+	cout << " (    ) ),--.                      .   (    )   .  " << endl;
+	cout << "             )-._                  ..   `--'   ..  " << endl;
+	cout << "_________________)                   ..      ..    " << endl;
+	cout << "                                        ....       " << endl;
+	cout << "                                                   " << endl;
+	cout << "                                                   " << endl;
+	cout << "! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !" << endl;
+	cout << "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" << endl;
+	cout << "|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|!|" << endl;
+	cout << "|||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+	cout << "I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I|I" << endl;
+	cout << "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII" << endl;
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "Want to continue on this eventful journey? (Y/N)" <<endl;
