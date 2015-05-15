@@ -9,9 +9,9 @@
 using namespace std;
 
 int main(){
-	char choice = ' ';
-	int wagon = 0;
-	string dec = " ";
+char choice = ' ';
+int wagon = 0;
+string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
@@ -44,18 +44,45 @@ int main(){
 	cout << " you did think to buy a fishing pole" <<endl;
 	cout << "Fish with your bare hands" <<endl;
 	cout << "Eat what you have" <<endl;
-	cout << "(fish/eat)";
 	cin >> dec;
 	
-	if (dec == "fish") {
+	if (dec == "Fish with your bare hands") {
 		cout << "You successfully catch 3 fish, but lose a finger in the process" << endl;
 	}
 	
-	if (dec == "eat") {
-		cout << "You have 5 days of rationed food left" <<endl;
+	if (dec == "Eat what you have") {
+		cout << "You have 5 days of a rationed food supply left" <<endl;
 	}
 	
+	cout << "Nice. You have covered 100 miles in 2 weeks. A respectable pace" <<endl;
+	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come";
+	cout << " across a freshwater stream" ;
+	cout << "Stop to collect water?" <<endl;
+	cout << "Y" <<endl;
+	cout << "N" <<endl;
+	cin >> choice;
 	
-	
+	if (choice == 'Y' || 'y' ) {
+		cout << "The cool water trickles down your throat quenching your recurring thirst";
+		cout << "  Continue down the path?" <<endl;
+		cout << "Y" <<endl;
+		cout << "N" <<endl;
+			
+			do { 
+				if (choice == 'Y' || 'y' ) {
+					cout << "OK. Don't Die" <<endl;
+				}
+			   } while (choice != 'N' || 'n' );
+			   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	return 0;
 } 
