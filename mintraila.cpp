@@ -8,11 +8,11 @@
 #include <string>
 using namespace std;
 
-	int main(){
-	char choice = ' ';
-	int wagon = 0;
-	char water = ' ';
-	string dec = " ";
+int main(){
+char choice = ' ';
+int wagon = 0;
+char water = ' ';
+string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
@@ -58,9 +58,11 @@ using namespace std;
 	}
 	
 	cout << "Nice. You have covered 100 miles in 2 weeks. A respectable pace" <<endl;
-	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come across a freshwater stream" <<endl;
-	cout << "Stop to collect water?" << endl;
-	cout << "(Y/N)";
+	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come";
+	cout << " across a freshwater stream" <<endl;
+	cout << "Stop to collect water?" <<endl;
+	cout << "Y" <<endl;
+	cout << "N" <<endl;
 	cin >> choice;
 	
 	if (choice == 'Y' || choice == 'y' ) {
@@ -74,6 +76,26 @@ using namespace std;
 				cout << "OK." << endl;
 				cout << "After travelling for yet another week, you seem to have contracted dysentery";
 				cout << " from the water you collected previously" <<endl;
+				cout << "You find a man on the street who claims to be a doctor" <<endl;
+				cout << "He agrees to treat you but only if you agree to provide him a ride to your";
+				cout << " destination" <<endl;
+				cout << " Give him a Ride? " <<endl
+				cout << "Y" <<endl;
+				cout << "N" <<endl;
+				cin >> choice;
+					
+					if (choice == 'Y' || choice == 'y') {
+						cout << "The so-called doctor betrays you and steals the wagon" <<endl;
+						cout << "You spend your life in the woods and die soon after" <<endl;
+						cout << "THE END" <<endl;
+						return 0;
+					}
+					
+					if (choice == 'N' || choice == 'n') {
+						cout << "You ignore the \"doctor\" and continue on your way. A hacking cough";
+						cout << " interrupts your second guessing thought" <<endl;
+					}
+					
 			}
 			else if (water != 'Y' || water != 'y' ) 
 			{
@@ -82,13 +104,16 @@ using namespace std;
 			}
 	}	
 	
-		cout << "  Continue down the path?" << endl;
-		cout << "(Y/N)" << endl;
-			do { 
-				if (choice == 'Y' || 'y' ) {
-					cout << "OK. Don't Die" << endl;
-				}
-	} while (choice != 'N' || 'n' );
-			   
+	
+			
+	
+		
+		
+		
+		
+		
+		
+		
+		
 	return 0;
 } 
