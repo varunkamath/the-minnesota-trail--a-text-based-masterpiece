@@ -73,7 +73,21 @@ int main()
 		} while (wagon > 2);
 	}
 	
-	// text art here
+	cout << ",--.                                    ....       " << endl;
+	cout << "    )                                ..      ..    " << endl;
+	cout << "  _'-. _                           ..   ,--.   ..  " << endl;
+	cout << " (    ) ),--.                      .   (    )   .  " << endl;
+	cout << "             )-._                  ..   `--'   ..  " << endl;
+	cout << "_________________)                   ..      ..    " << endl;
+	cout << "                                        ....       " << endl;
+	cout << "                                                   " << endl;
+	cout << "                                                   " << endl;
+	cout << "! ! ! ! ! ! ! ! ! ! .--------.-. ! ! ! ! ! ! ! ! ! " << endl;
+	cout << "!!!!!!!!!!!!!!!!!!!/        //^\\\\!!!!!!!!!!!!!!!!!!" << endl;
+	cout << "|!|!|!|!|!|!|!|!|!|\\________\\\\=//|!|!|!|!|!|!|!|!|!" << endl;
+	cout << "|||||||||||||||||||[________[\\__]\\|||||||||||||||||" << endl;
+	cout << "I|I|I|I|I|I|I|I|I|I(o)    (o)`\\=)_\\|I|I|I|I|I|I|I|I" << endl;
+	cout << "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII" << endl;
 	cout << "You come up to a gushing stream. Unfortunately";
 	cout << " you did not think to buy a fishing pole\n" <<endl;
 	cout << "Fish with your bare hands\n" <<endl;
