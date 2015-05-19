@@ -112,14 +112,32 @@ int main()
 	if (choice == 'Y' || choice == 'y' ) {
 		cout << "The cool water trickles down your throat quenching your recurring thirst";
 		cout << "  Continue down the path?" <<endl;
-		cout << "Y" <<endl;
-		cout << "N" <<endl; 
+		cout << "(Y/N)" <<endl;
 		cin >> water;
 			if (water == 'Y' || water == 'y' )
 			 {
 				cout << "OK." << endl;
 				cout << "After travelling for yet another week, you seem to have contracted dysentery";
 				cout << " from the water you collected previously" <<endl;
+				cout << "You find a man on the street who claims to be a doctor" <<endl;
+				cout << "He agrees to treat you but only if you agree to provide him a ride to your";
+				cout << " destination" << endl;
+				cout << "Give him a Ride?" << endl;
+				cout << "(Y/N)" << endl;
+				cin >> choice;
+					
+					if (choice == 'Y' || choice == 'y') {
+						cout << "The so-called doctor betrays you and steals the wagon" <<endl;
+						cout << "You spend your life in the woods and die soon after" <<endl;
+						cout << "THE END" <<endl;
+						return 0;
+					}
+					
+					if (choice == 'N' || choice == 'n') {
+						cout << "You ignore the \"doctor\" and continue on your way. A hacking cough";
+						cout << " interrupts your second thought" <<endl;
+					}
+					
 			}
 			else if (water != 'Y' || water != 'y' ) 
 			{
