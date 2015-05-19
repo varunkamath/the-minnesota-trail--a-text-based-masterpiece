@@ -29,7 +29,6 @@ void sleep_ms(int milliseconds) // cross-platform sleep function
 }
 
 using namespace std;
-
 int main()
 {
 	cout << "+--------------------------------------------------------------------------------------------------------+" << endl;
@@ -66,7 +65,7 @@ int main()
 	cin >> choice;
 
 	if (choice == 'Y' || choice == 'y') {
-		cout << "Let us begin the adventure" << endl;
+		cout << "Let us begin the adventure" <<endl;
 		sleep_ms(1000);
 	}
 	else if (choice == 'N' || choice == 'n') {
@@ -134,12 +133,12 @@ int main()
 	
 	if (dec == "fish") {
 		cout << "You successfully catch 3 fish, but lose a finger in the process" << endl;
-		sleep_ms(3000);
+		sleep_ms(1000);
 	}
 	
 	if (dec == "eat") {
 		cout << "You have 5 days of rationed food left" <<endl;
-		sleep_ms(3000);
+		sleep_ms(1000);
 	}
 	cout << "Nice. You have covered 100 miles in 2 weeks. A respectable pace" <<endl;
 	sleep_ms(2000);
