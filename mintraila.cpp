@@ -8,11 +8,11 @@
 #include <string>
 using namespace std;
 
-int main(){
-char choice = ' ';
-int wagon = 0;
-char water = ' ';
-string dec = " ";
+	int main(){
+	char choice = ' ';
+	int wagon = 0;
+	char water = ' ';
+	string dec = " ";
     
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
@@ -58,11 +58,9 @@ string dec = " ";
 	}
 	
 	cout << "Nice. You have covered 100 miles in 2 weeks. A respectable pace" <<endl;
-	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come";
-	cout << " across a freshwater stream" <<endl;
-	cout << "Stop to collect water?" <<endl;
-	cout << "Y" <<endl;
-	cout << "N" <<endl;
+	cout << "Your food supply is meager, and your water is very scarce. Luckily, you come across a freshwater stream" <<endl;
+	cout << "Stop to collect water?" << endl;
+	cout << "(Y/N)";
 	cin >> choice;
 	
 	if (choice == 'Y' || choice == 'y' ) {
@@ -84,15 +82,13 @@ string dec = " ";
 			}
 	}	
 	
-			
-	
-		
-		
-		
-		
-		
-		
-		
-		
+		cout << "  Continue down the path?" << endl;
+		cout << "(Y/N)" << endl;
+			do { 
+				if (choice == 'Y' || 'y' ) {
+					cout << "OK. Don't Die" << endl;
+				}
+	} while (choice != 'N' || 'n' );
+			   
 	return 0;
 } 
