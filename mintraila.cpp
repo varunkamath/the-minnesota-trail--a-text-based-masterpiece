@@ -13,7 +13,7 @@ char choice = ' ';
 int wagon = 0;
 char water = ' ';
 string dec = " ";
-    
+    //encompass this code in a for loop
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
 	cout << "Y" <<endl;
@@ -79,7 +79,7 @@ string dec = " ";
 				cout << "You find a man on the street who claims to be a doctor" <<endl;
 				cout << "He agrees to treat you but only if you agree to provide him a ride to your";
 				cout << " destination" <<endl;
-				cout << " Give him a Ride? " <<endl
+				cout << " Give him a Ride?" <<endl;
 				cout << "Y" <<endl;
 				cout << "N" <<endl;
 				cin >> choice;
@@ -94,6 +94,21 @@ string dec = " ";
 					if (choice == 'N' || choice == 'n') {
 						cout << "You ignore the \"doctor\" and continue on your way. A hacking cough";
 						cout << " interrupts your second guessing thought" <<endl;
+						cout << "AFTER ANOTHER WEEK" <<endl; //text art here
+						cout << "You see a seemingly abandoned yard rife with deer and squirrel" <<endl;
+						cout << "Do you choose to hunt?" <<endl;
+						cout << "Y" <<endl;
+						cout << "N" <<endl;
+						cin >> choice;
+							
+							if (choice == "Y" || choice == 'y') {
+								cout << "Good luck" <<endl;
+								\\add delay
+								cout << "You manage to snag 10 pounds of venison." <<endl;
+								cout << "As you are restocking, you notice a small hand extending" ;
+								cout << " out of the curtain separating the cabin from the food stock" <<endl;
+							\\keep adding more story here plus another if statement
+							} 
 					}
 					
 			}
