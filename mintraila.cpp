@@ -13,7 +13,7 @@ char choice = ' ';
 int wagon = 0;
 char water = ' ';
 string dec = " ";
-    //encompass this code in a for loop
+    //encompass this code in a for loop or the sleep command
     cout << "You are about to embark on the Minnesota Trail; a path to fulfilling your destiny" <<endl;
 	cout << "\nWant to continue on this eventful journey?" <<endl;
 	cout << "Y" <<endl;
@@ -117,6 +117,13 @@ string dec = " ";
 									if (choice == 'Y' || choice == 'y') {
 										cout << "You are a kind and forgiving person. They praise ";
 										cout << "you for your generosity. " <<endl;
+										//add sleep here and where ever appropriate
+										cout << "After three days of travelling, the integrity of the ";
+										cout << "wagon seems to be compromised- the wheels are loose. ";
+										cout << "Miraculously, the family that lives in your wagon are ";
+										cout << "experienced craftsmen. They fix the wagon, and possibly ";
+										cout << "enhanced it in no time. You continue on your way" <<endl;
+										
 									}
 									
 									if (choice == 'N' || choice == 'n') {
@@ -126,7 +133,16 @@ string dec = " ";
 										cout << "of utilities, not nearly enough to support 4 people." <<endl;
 										cout << "You continue on your way..." <<endl;
 										//add sleep where ever appropriate
-										 
+										//After 3 days
+										cout << "The base of the wagon suddenly crumbles causing ";
+										cout << "all your supplies to spill out. Some of your food ";
+										cout << "is spoiled as well. The wagon has no means of operation ";
+										cout << "and you have no tools to fix it. You check if there is ";
+										cout << "a settlement post nearby but the closest one 100 miles away. ";
+										cout << "Accepting fate, you climb a tree and live out the rest of your ";
+										cout << "unfulfilled life. " <<endl;
+										cout << "THE END" <<endl;
+											return 0; 
 									}  							
 							
 							} 
