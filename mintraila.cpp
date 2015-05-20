@@ -106,8 +106,29 @@ string dec = " ";
 								\\add delay
 								cout << "You manage to snag 10 pounds of venison." <<endl;
 								cout << "As you are restocking, you notice a small hand extending" ;
-								cout << " out of the curtain separating the cabin from the food stock" <<endl;
-							\\keep adding more story here plus another if statement
+								cout << " out of the curtain separating the cabin from the food stock." <<endl;
+								cout << " You open the curtain and see a family who apparently ";
+								cout << "have hidden in your wagon for two months now" ; <<endl;
+								cout << "Do want to kick them out?" <<endl;
+								cout << "Y" <<endl;
+								cout << "N" <<endl;
+								cin >> choice
+								
+									if (choice == 'Y' || choice == 'y') {
+										cout << "You are a kind and forgiving person. They praise ";
+										cout << "you for your generosity. " <<endl;
+									}
+									
+									if (choice == 'N' || choice == 'n') {
+										cout << "Their wailing cries puncture the air as you ";
+										cout << "force them to exit the wagon. You justify your ";
+										cout << "actions by remembering there is a limited supply ";
+										cout << "of utilities, not nearly enough to support 4 people." <<endl;
+										cout << "You continue on your way..." <<endl;
+										//add sleep where ever appropriate
+										 
+									}  							
+							
 							} 
 					}
 					
