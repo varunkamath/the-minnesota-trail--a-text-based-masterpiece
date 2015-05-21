@@ -123,6 +123,34 @@ string dec = " ";
 										cout << "Miraculously, the family that lives in your wagon are ";
 										cout << "experienced craftsmen. They fix the wagon, and possibly ";
 										cout << "enhanced it in no time. You continue on your way" <<endl;
+										//sleep and stuff and text art
+										cout << "After 2 months you encounter a sign. It reads \" ";
+										cout << "Welcome to the End of the Minnesota Trail" <<endl;
+										cout << "Laughing and crying with joy you lead the wagon in the town" ;
+										cout << " but discover there are no inhabitants and the town" ;
+										cout << " is only 1 square mile. You walk up to the edge  ";
+										cout << " and see miles upon miles of more desert " <<endl;
+										cout << "What do you want to do, captain?" <<endl;
+										cout << "Stay" <<endl;
+										cout << "Leave" <<endl;
+										
+											if (dec == "Stay" || dec == "stay") {
+												cout << "The harsh environment is too much to bear ";
+												cout << "for your oxen. They die and the only liquid ";
+												cout << "you have is a gallon of water and a can of oil.";
+												cout << "So basically, you're dead" <<endl;
+													return 0;
+											}
+											
+											if (dec == "leave" || dec == "leave") {
+												cout << "You scavenge any remaining supplies from the ";
+												cout << "abandoned street corners... it is not nearly ";
+												cout << "enough. You and the hitchhiking family become ";
+												cout << "insane and die" <<endl;
+												cout << "THE MINNESOTA TRAIL ALWAYS WINS..." <<endl;
+												return 0;
+											}
+												
 										
 									}
 									
